@@ -1,0 +1,9 @@
+click==7.1.2; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0"
+fastapi==0.61.2; python_version >= "3.6"
+h11==0.9.0
+httptools==0.1.1; sys_platform != "win32" and sys_platform != "cygwin" and platform_python_implementation != "PyPy"
+pydantic==1.7.3; python_version >= "3.6"
+starlette==0.13.6; python_version >= "3.6"
+uvicorn==0.11.8
+uvloop==0.14.0; sys_platform != "win32" and sys_platform != "cygwin" and platform_python_implementation != "PyPy"
+websockets==8.1; python_full_version >= "3.6.1"
